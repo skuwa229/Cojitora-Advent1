@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "cojitora-favicon",
+	"description": "ファビコンが設定されていないWebページにこじとらくんが遊びに来るよ。",
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [
+				"js/cojitora.js"
+			]
+		}
+	]
+}
+
