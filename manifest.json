@@ -1,8 +1,19 @@
 {
 	"manifest_version": 2,
-	"name": "cojitora-favicon",
+	"name": "こじとらくんファビコン",
 	"description": "ファビコンが設定されていないWebページにこじとらくんが遊びに来るよ。",
 	"version": "1.0",
+	"icons": {
+		"16": "image/icon16.png",
+		"48": "image/icon48.png",
+		"128": "image/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"48": "image/icon48.png"
+		},
+		"default_title": "こじとらくんファビコン"
+	},	
 	"content_scripts": [
 		{
 			"matches": [
