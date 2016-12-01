@@ -14,7 +14,7 @@
 	
 		// make DOM
 		const link = document.createElement('link');
-		link.type = 'type="image/png';
+		link.type = 'type="image/x-icon';
 		link.rel = 'shortcut icon';
 		link.href = 'https://raw.githubusercontent.com/skuwa229/Cojitora-Image/master/favicon' + numbers[0] + '.ico?v=' + time;
 		
